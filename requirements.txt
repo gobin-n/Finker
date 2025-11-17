@@ -7,3 +7,4 @@ requests
 markdown2
 markupsafe
 psycopg2-binary
+gunicorn
