@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block main %}
+<div class="card shadow-sm mt-5">
+  <div class="card-body">
+    <h2 class="card-title mb-4 text-center">S'inscrire</h2>
+    <form action="/register" method="post">
+      <div class="mb-3">
+        <input name="username" class="form-control" placeholder="Nom d'utilisateur" type="text" autocomplete="off">
+      </div>
+      <div class="mb-3">
+        <input name="password" class="form-control" placeholder="Mot de passe" type="password" autocomplete="off">
+      </div>
+      <div class="mb-3">
+        <input name="confirmation" class="form-control" placeholder="Confirmer le mot de passe" type="password" autocomplete="off">
+      </div>
+      <button type="submit" class="btn btn-primary w-100">S'inscrire</button>
+    </form>
+    {% if error %}
+      <div class="alert alert-danger mt-3 text-center">{{ error }}</div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

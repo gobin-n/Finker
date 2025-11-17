@@ -1,0 +1,9 @@
+Flask
+Flask-Session
+Werkzeug
+google-genai
+python-dotenv
+requests
+markdown2
+markupsafe
+psycopg2-binary
