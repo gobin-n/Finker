@@ -625,7 +625,6 @@ def get_db():
 
 ## 📊 Améliorations futures
 
-- [ ] Migrer vers PostgreSQL/Supabase
 - [ ] Ajouter des thèmes (clair/sombre)
 - [ ] Suppression/édition de messages
 - [ ] Export de conversations en PDF
